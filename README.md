@@ -1,26 +1,67 @@
-# Portfolio
+# 🌐 Swapnika Satti - Portfolio
 
-Welcome to the Portfolio repository!
+Welcome to my personal portfolio website!  
+This portfolio showcases my projects, skills, and experience in **Artificial Intelligence, Machine Learning, and Full Stack Development**.
 
-## Project Description
+🔗 **Live Website:**  
+https://swapnika-portfolio-seven.vercel.app/
 
-This repository contains the source code for Revanth Reddy's personal portfolio website. It serves as an online showcase for skills, projects, and professional background. You can visit the deployed site here: [https://revanth-reddy-folio.vercel.app](https://revanth-reddy-folio.vercel.app).
+---
 
-## Features
+## 👩‍💻 About Me
 
-- Personal introduction and background
-- Showcase of selected projects
-- Details on technical skills and expertise
-- Contact information
+I am a B.Tech (AI & ML) student at **Shri Vishnu Engineering College for Women**.  
+I am passionate about building intelligent systems and user-friendly web applications.
 
-## Technologies Used
+- 💡 Interested in Machine Learning & Data Science  
+- 💻 Skilled in Full Stack Development  
+- 🚀 Actively looking for Internship Opportunities  
 
-- **JavaScript** (Primary language)
-- HTML, CSS
-- Frameworks or libraries (visit the code for more specifics)
+---
 
-## Getting Started
+## 🛠️ Tech Stack
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/RevanthReddy1310/Portfolio.git
+- **Languages:** Python, Java, C, JavaScript  
+- **Web:** HTML, CSS, JavaScript  
+- **Machine Learning:** Scikit-learn, Pandas, EDA  
+- **Tools:** Git, GitHub, VS Code, Streamlit, Vercel  
+
+---
+
+## 📂 Projects
+
+### 🚲 Bike Demand Prediction
+- Built an ML model to predict bike demand using weather and time features  
+- Deployed using Streamlit  
+
+### 🎁 AI Gift Recommendation System
+- Developed a recommendation system using Random Forest  
+- Built with Flask for web interface  
+
+### 🎓 Student Management System
+- Java-based application using OOP concepts  
+- Supports CRUD operations  
+
+### 📊 Employee Attrition Prediction
+- Analyzed HR dataset and built ML models  
+- Identified key factors influencing attrition  
+
+### ✅ To-Do List App
+- Simple task management web application  
+- Add, edit, and delete tasks  
+
+---
+
+## 📫 Contact
+
+- 📧 Email: swapnireddy9494@gmail.com  
+- 🔗 LinkedIn: https://www.linkedin.com/in/swapnika-satti-1690a2319/  
+- 💻 GitHub: https://github.com/swapnika9494  
+
+---
+
+## ⭐ If you like this project
+
+Give it a ⭐ on GitHub!
+
+---
