@@ -3,200 +3,207 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Swapnika Satti</title>
 
-<title>Swapnika Satti | Portfolio</title>
+<link rel="stylesheet" href="style.css">
 
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 
 <link rel="stylesheet"
 href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
-<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<!-- NAVBAR -->
 <header class="navbar">
 <div class="logo">Swapnika</div>
 
 <nav>
 <a href="#home">Home</a>
 <a href="#about">About</a>
-<a href="#skills">Skills</a>
+<a href="#resume">Resume</a>
 <a href="#projects">Projects</a>
 <a href="#contact">Contact</a>
 </nav>
-
-<a class="resume-btn" href="Resume1 (1).pdf" download>
-<i class="fa fa-download"></i> Resume
-</a>
-
 </header>
 
 <!-- HERO -->
+
 <section id="home" class="hero">
 
 <div class="hero-content">
 
-<h1>Satti <span>Swapnika</span></h1>
+<h4>HEY! I AM</h4>
 
-<h2 class="typing">
-I'm a <span id="typed"></span>
-</h2>
+<h1>Satti Swapnika</h1>
 
-<p class="hero-desc">
-AI & ML Student • Full Stack Developer • Data Science Enthusiast  
-I love building intelligent applications and solving real world problems.
-</p>
-
-<div class="hero-buttons">
-<a href="#projects">View Projects</a>
-<a href="#contact">Contact Me</a>
-</div>
-
-<div class="social-icons">
-<a href="https://github.com/swapnika9494" target="_blank">
-<i class="fab fa-github"></i>
-</a>
-
-<a href="https://www.linkedin.com/in/swapnika-satti-1690a2319/" target="_blank">
-<i class="fab fa-linkedin"></i>
-</a>
-</div>
+<h2>I like <span id="typed"></span></h2>
 
 </div>
 
 </section>
 
 <!-- ABOUT -->
-<section id="about" class="section">
+
+<section id="about" class="about">
+
+<div class="about-left">
+<img src="profile.jpeg">
+</div>
+
+<div class="about-right">
 
 <h2>About Me</h2>
 
 <p>
-I am an Artificial Intelligence and Machine Learning undergraduate passionate 
-about building intelligent systems, developing full stack applications and 
-solving real-world problems using data driven approaches.
+I am an AI & ML student passionate about coding, photography and 
+exploring new places. I enjoy building intelligent applications 
+and solving real world problems.
 </p>
 
-<div class="interests">
+<ul class="info">
+<li><b>Name:</b> Satti Swapnika</li>
+<li><b>Email:</b> swapnireddy9494@gmail.com</li>
+<li><b>City:</b> Bhimavaram</li>
+<li><b>Interests:</b> Coding, Photography, Travel</li>
+</ul>
 
-<div class="interest">
-<i class="fas fa-code"></i>
-<h4>Coding</h4>
-<p>I enjoy solving problems and building applications</p>
-</div>
-
-<div class="interest">
-<i class="fas fa-camera"></i>
-<h4>Photography</h4>
-<p>I love capturing moments and creative visuals</p>
-</div>
-
-<div class="interest">
-<i class="fas fa-plane"></i>
-<h4>Exploring</h4>
-<p>I enjoy travelling and exploring new places</p>
-</div>
+<a class="btn" href="Resume1 (1).pdf">Download Resume</a>
 
 </div>
 
 </section>
 
+<!-- RESUME -->
+
+<section id="resume" class="resume">
+
+<h2>Education</h2>
+
+<div class="resume-item">
+<h3>Shri Vishnu Engineering College for Women</h3>
+<p>B.Tech AI & ML</p>
+<span>2022 - 2026</span>
+</div>
+
+<div class="resume-item">
+<h3>Sri Chaitanya Junior College</h3>
+<p>Intermediate</p>
+<span>2020 - 2022</span>
+</div>
+
+</section>
+
 <!-- SKILLS -->
-<section id="skills" class="section">
+
+<section class="skills">
 
 <h2>Skills</h2>
 
 <div class="skills-grid">
 
-<div class="skill"><i class="fab fa-java"></i> Java</div>
-<div class="skill"><i class="fab fa-python"></i> Python</div>
-<div class="skill"><i class="fab fa-js"></i> JavaScript</div>
-<div class="skill"><i class="fab fa-html5"></i> HTML</div>
-<div class="skill"><i class="fab fa-css3-alt"></i> CSS</div>
-<div class="skill"><i class="fas fa-database"></i> DBMS</div>
-<div class="skill"><i class="fas fa-brain"></i> Machine Learning</div>
-<div class="skill"><i class="fab fa-git-alt"></i> Git</div>
-<div class="skill"><i class="fab fa-github"></i> GitHub</div>
-<div class="skill"><i class="fas fa-code"></i> DSA</div>
+<i class="fab fa-java"></i>
+<i class="fab fa-python"></i>
+<i class="fab fa-js"></i>
+<i class="fab fa-html5"></i>
+<i class="fab fa-css3"></i>
+<i class="fab fa-github"></i>
+<i class="fas fa-database"></i>
+<i class="fas fa-brain"></i>
 
 </div>
 
 </section>
 
 <!-- PROJECTS -->
-<section id="projects" class="section">
+
+<section id="projects" class="projects">
 
 <h2>Projects</h2>
 
-<div class="projects-grid">
-
 <div class="project-card">
 <h3>Bike Demand Prediction</h3>
-<p>
-Built ML model to predict bike demand using weather and time features.
-Deployed using Streamlit.
-</p>
+<p>ML model to predict bike demand using weather features</p>
 </div>
 
 <div class="project-card">
 <h3>AI Gift Recommendation</h3>
-<p>
-Developed recommendation system using Random Forest.
-Built Flask web interface.
-</p>
+<p>Recommendation system using Random Forest</p>
 </div>
 
 <div class="project-card">
 <h3>Student Management System</h3>
-<p>
-Java based application implementing OOP concepts with CRUD operations.
-</p>
-</div>
-
-<div class="project-card">
-<h3>Employee Attrition Prediction</h3>
-<p>
-Analyzed HR dataset and built ML models to predict attrition.
-</p>
-</div>
-
-<div class="project-card">
-<h3>To-Do List App</h3>
-<p>
-Interactive task management web app with add edit delete features.
-</p>
-</div>
-
+<p>Java based CRUD application</p>
 </div>
 
 </section>
 
 <!-- CONTACT -->
-<section id="contact" class="section">
 
-<h2>Contact</h2>
+<section id="contact" class="contact">
 
-<p>Email: swapnireddy9494@gmail.com</p>
+<h2>Contact Me</h2>
 
-<div class="contact-social">
+<div class="contact-container">
 
-<a href="https://github.com/swapnika9494" target="_blank">
-<i class="fab fa-github"></i>
-</a>
+<div class="contact-card">
+<div class="icon-circle">
+<i class="fas fa-phone"></i>
+</div>
+<h3>Phone</h3>
+<p>+91 8143431116</p>
+</div>
 
-<a href="https://www.linkedin.com/in/swapnika-satti-1690a2319/" target="_blank">
+<div class="contact-card">
+<div class="icon-circle">
+<i class="fas fa-envelope"></i>
+</div>
+<h3>Email</h3>
+<p>swapnireddy9494@gmail.com</p>
+</div>
+
+<div class="contact-card">
+<div class="icon-circle">
 <i class="fab fa-linkedin"></i>
-</a>
+</div>
+<h3>LinkedIn</h3>
+<p>swapnika-satti</p>
+</div>
 
 </div>
 
 </section>
 
-<footer>
-© 2026 Satti Swapnika
+<footer class="footer">
+
+<div class="footer-container">
+
+<div>
+<h3>About</h3>
+<p>I like coding, photography and exploring new places.</p>
+</div>
+
+<div>
+<h3>Links</h3>
+<p>Home</p>
+<p>About</p>
+<p>Projects</p>
+<p>Contact</p>
+</div>
+
+<div>
+<h3>Have a Question?</h3>
+<p>+91 8143431116</p>
+<p>swapnireddy9494@gmail.com</p>
+</div>
+
+</div>
+
+<div class="footer-bottom">
+© 2026 Swapnika
+</div>
+
 </footer>
 
 <script src="script.js"></script>
