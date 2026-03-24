@@ -1,209 +1,271 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Swapnika Satti</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Satti Swapnika — Portfolio</title>
 
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
-
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-
-<link rel="stylesheet"
-href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
 </head>
 
 <body>
 
-<header class="navbar">
-<div class="logo">Swapnika</div>
+<header class="topbar">
+<div class="brand">♡ SWAPNIKA ♡</div>
 
-<nav>
-<a href="#home">Home</a>
-<a href="#about">About</a>
-<a href="#resume">Resume</a>
-<a href="#projects">Projects</a>
-<a href="#contact">Contact</a>
+<nav class="topnav">
+<button data-target="home"><i class="fas fa-house"></i> Home</button>
+<button data-target="about"><i class="fas fa-user"></i> About</button>
+<button data-target="skills"><i class="fas fa-cogs"></i> Skills</button>
+<button data-target="projects"><i class="fas fa-briefcase"></i> Projects</button>
+<button data-target="edu"><i class="fas fa-graduation-cap"></i> Education</button>
+<button data-target="contact"><i class="fas fa-envelope"></i> Contact</button>
 </nav>
+
+<div class="actions">
+<a class="btn btn-primary" href="Resume1 (1).pdf" download>
+<i class="fas fa-download"></i> Download Resume
+</a>
+</div>
 </header>
 
+<main id="slides" class="slides">
+
 <!-- HERO -->
+<section id="home" class="slide hero split">
+<div class="left">
+<div class="intro-card glass">
 
-<section id="home" class="hero">
+<div class="eyebrow">PORTFOLIO</div>
 
-<div class="hero-content">
+<h1 class="hero-title">
+Satti <span class="accent">Swapnika</span>
+</h1>
 
-<h4>HEY! I AM</h4>
+<p class="lead">
+B.Tech (AI & ML) • Full Stack Developer • Problem Solver
+</p>
 
-<h1>Satti Swapnika</h1>
+<p class="typed">
+I'm a <span id="typed"></span>
+</p>
 
-<h2>I like <span id="typed"></span></h2>
+<div class="hero-ctas">
+<button class="btn btn-ghost" data-target="projects">
+See My Work
+</button>
 
+<a class="btn btn-primary"
+href="mailto:swapnireddy9494@gmail.com">
+Contact
+</a>
+</div>
+
+<ul class="mini-stats">
+<li>CGPA: 8.68</li>
+<li>LeetCode: 1500+</li>
+<li>Open to Internships</li>
+</ul>
+
+</div>
+</div>
+
+<div class="right">
+<div class="portrait-card glass">
+<img src="profile.jpeg">
+</div>
 </div>
 
 </section>
 
 <!-- ABOUT -->
+<section id="about" class="slide split">
 
-<section id="about" class="about">
-
-<div class="about-left">
-<img src="profile.jpeg">
-</div>
-
-<div class="about-right">
+<div class="left glass">
 
 <h2>About Me</h2>
 
 <p>
-I am an AI & ML student passionate about coding, photography and 
-exploring new places. I enjoy building intelligent applications 
-and solving real world problems.
+I'm an Artificial Intelligence and Machine Learning undergraduate 
+passionate about coding, photography, and exploring new places. 
+I enjoy building intelligent systems and solving real-world problems.
 </p>
 
-<ul class="info">
-<li><b>Name:</b> Satti Swapnika</li>
-<li><b>Email:</b> swapnireddy9494@gmail.com</li>
-<li><b>City:</b> Bhimavaram</li>
-<li><b>Interests:</b> Coding, Photography, Travel</li>
+<p>
+<strong>Email:</strong>
+<a href="mailto:swapnireddy9494@gmail.com">
+swapnireddy9494@gmail.com
+</a>
+</p>
+
+</div>
+
+<div class="right glass">
+
+<h2>Highlights</h2>
+
+<ul>
+<li>Web Development Intern — SkillDzire</li>
+<li>Infosys Virtual Internship — Data Science</li>
+<li>LeetCode Rating: 1500+</li>
+<li>Open to Software Internships</li>
 </ul>
 
-<a class="btn" href="Resume1 (1).pdf">Download Resume</a>
-
-</div>
-
-</section>
-
-<!-- RESUME -->
-
-<section id="resume" class="resume">
-
-<h2>Education</h2>
-
-<div class="resume-item">
-<h3>Shri Vishnu Engineering College for Women</h3>
-<p>B.Tech AI & ML</p>
-<span>2022 - 2026</span>
-</div>
-
-<div class="resume-item">
-<h3>Sri Chaitanya Junior College</h3>
-<p>Intermediate</p>
-<span>2020 - 2022</span>
 </div>
 
 </section>
 
 <!-- SKILLS -->
+<section id="skills" class="slide">
 
-<section class="skills">
+<div class="container glass">
 
-<h2>Skills</h2>
+<h2>Technical Skills</h2>
 
 <div class="skills-grid">
 
-<i class="fab fa-java"></i>
-<i class="fab fa-python"></i>
-<i class="fab fa-js"></i>
-<i class="fab fa-html5"></i>
-<i class="fab fa-css3"></i>
-<i class="fab fa-github"></i>
-<i class="fas fa-database"></i>
-<i class="fas fa-brain"></i>
+<div>Java</div>
+<div>Python</div>
+<div>JavaScript</div>
+<div>HTML</div>
+<div>CSS</div>
+<div>Machine Learning</div>
+<div>DBMS</div>
+<div>DSA</div>
+<div>Git</div>
+<div>GitHub</div>
+
+</div>
 
 </div>
 
 </section>
 
 <!-- PROJECTS -->
+<section id="projects" class="slide">
 
-<section id="projects" class="projects">
+<div class="container">
 
 <h2>Projects</h2>
 
-<div class="project-card">
+<div class="projects-grid">
+
+<div class="proj-card">
 <h3>Bike Demand Prediction</h3>
 <p>ML model to predict bike demand using weather features</p>
 </div>
 
-<div class="project-card">
+<div class="proj-card">
 <h3>AI Gift Recommendation</h3>
 <p>Recommendation system using Random Forest</p>
 </div>
 
-<div class="project-card">
+<div class="proj-card">
 <h3>Student Management System</h3>
 <p>Java based CRUD application</p>
+</div>
+
+<div class="proj-card">
+<h3>Employee Attrition Prediction</h3>
+<p>ML model to predict employee attrition</p>
+</div>
+
+<div class="proj-card">
+<h3>To-Do List App</h3>
+<p>Task management web application</p>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- EDUCATION -->
+<section id="edu" class="slide">
+
+<div class="container glass">
+
+<h2>Education</h2>
+
+<div class="edu-grid">
+
+<div class="edu-card">
+B.Tech (AI & ML) — SVECW<br>
+CGPA: 8.68
+</div>
+
+<div class="edu-card">
+Intermediate — Sri Chaitanya<br>
+92.1%
+</div>
+
+</div>
+
 </div>
 
 </section>
 
 <!-- CONTACT -->
+<section id="contact" class="slide split">
 
-<section id="contact" class="contact">
+<div class="left glass">
 
-<h2>Contact Me</h2>
+<h2>Contact</h2>
 
-<div class="contact-container">
+<p>Email:
+<a href="mailto:swapnireddy9494@gmail.com">
+swapnireddy9494@gmail.com
+</a>
+</p>
 
-<div class="contact-card">
-<div class="icon-circle">
-<i class="fas fa-phone"></i>
-</div>
-<h3>Phone</h3>
-<p>+91 8143431116</p>
+<p>Phone:
+<a href="tel:+918143431116">
++91 8143431116
+</a>
+</p>
+
+<div class="hero-ctas">
+
+<a class="btn btn-primary"
+href="https://github.com/swapnika9494"
+target="_blank">
+GitHub
+</a>
+
+<a class="btn btn-ghost"
+href="https://www.linkedin.com/in/swapnika-satti-1690a2319/"
+target="_blank">
+LinkedIn
+</a>
+
 </div>
 
-<div class="contact-card">
-<div class="icon-circle">
-<i class="fas fa-envelope"></i>
-</div>
-<h3>Email</h3>
-<p>swapnireddy9494@gmail.com</p>
 </div>
 
-<div class="contact-card">
-<div class="icon-circle">
-<i class="fab fa-linkedin"></i>
-</div>
-<h3>LinkedIn</h3>
-<p>swapnika-satti</p>
-</div>
+<div class="right glass">
+
+<h2>Interests</h2>
+
+<p>
+• Coding  
+• Photography  
+• Exploring new places  
+• Building projects  
+</p>
 
 </div>
 
 </section>
 
-<footer class="footer">
+</main>
 
-<div class="footer-container">
-
-<div>
-<h3>About</h3>
-<p>I like coding, photography and exploring new places.</p>
-</div>
-
-<div>
-<h3>Links</h3>
-<p>Home</p>
-<p>About</p>
-<p>Projects</p>
-<p>Contact</p>
-</div>
-
-<div>
-<h3>Have a Question?</h3>
-<p>+91 8143431116</p>
-<p>swapnireddy9494@gmail.com</p>
-</div>
-
-</div>
-
-<div class="footer-bottom">
-© 2026 Swapnika
-</div>
-
+<footer class="foot">
+© 2026 Satti Swapnika
 </footer>
 
 <script src="script.js"></script>
