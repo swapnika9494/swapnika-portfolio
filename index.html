@@ -1,129 +1,173 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Swapnika | Portfolio</title>
-
-<link rel="stylesheet" href="style.css">
+<title>Swapnika Satti | Portfolio</title>
 
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-<script defer src="script.js"></script>
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
+<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
 <!-- NAVBAR -->
+<header class="navbar">
+<div class="logo">Swapnika</div>
 
-<header>
 <nav>
-<h2 class="logo">Swapnika</h2>
-
-<ul class="nav-links">
-<li><a href="#home">Home</a></li>
-<li><a href="#about">About</a></li>
-<li><a href="#skills">Skills</a></li>
-<li><a href="#projects">Projects</a></li>
-<li><a href="#contact">Contact</a></li>
-</ul>
-
+<a href="#home">Home</a>
+<a href="#about">About</a>
+<a href="#skills">Skills</a>
+<a href="#projects">Projects</a>
+<a href="#contact">Contact</a>
 </nav>
+
+<a class="resume-btn" href="Resume1 (1).pdf" download>
+<i class="fa fa-download"></i> Resume
+</a>
+
 </header>
 
 <!-- HERO -->
-
 <section id="home" class="hero">
 
-<div class="hero-left">
+<div class="hero-content">
 
-<h3>Hello, I'm</h3>
-<h1>Swapnika Satti</h1>
+<h1>Satti <span>Swapnika</span></h1>
 
-<h2 class="typing"></h2>
+<h2 class="typing">
+I'm a <span id="typed"></span>
+</h2>
 
-<div class="buttons">
-<a href="Resume1 (1).pdf" class="btn" download>Download Resume</a>
-<a href="#projects" class="btn-outline">View Projects</a>
+<p class="hero-desc">
+AI & ML Student • Full Stack Developer • Data Science Enthusiast  
+I love building intelligent applications and solving real world problems.
+</p>
+
+<div class="hero-buttons">
+<a href="#projects">View Projects</a>
+<a href="#contact">Contact Me</a>
 </div>
 
+<div class="social-icons">
+<a href="https://github.com/swapnika9494" target="_blank">
+<i class="fab fa-github"></i>
+</a>
+
+<a href="https://www.linkedin.com/in/swapnika-satti-1690a2319/" target="_blank">
+<i class="fab fa-linkedin"></i>
+</a>
 </div>
 
-<div class="hero-right">
-<img src="profile.jpeg" alt="">
 </div>
 
 </section>
 
 <!-- ABOUT -->
+<section id="about" class="section">
 
-<section id="about">
-
-<h2 class="section-title">About Me</h2>
+<h2>About Me</h2>
 
 <p>
-I am an Artificial Intelligence and Machine Learning student passionate about building intelligent applications. I enjoy working on machine learning, web development, and solving real-world problems using AI.
+I am an Artificial Intelligence and Machine Learning undergraduate passionate 
+about building intelligent systems, developing full stack applications and 
+solving real-world problems using data driven approaches.
 </p>
+
+<div class="interests">
+
+<div class="interest">
+<i class="fas fa-code"></i>
+<h4>Coding</h4>
+<p>I enjoy solving problems and building applications</p>
+</div>
+
+<div class="interest">
+<i class="fas fa-camera"></i>
+<h4>Photography</h4>
+<p>I love capturing moments and creative visuals</p>
+</div>
+
+<div class="interest">
+<i class="fas fa-plane"></i>
+<h4>Exploring</h4>
+<p>I enjoy travelling and exploring new places</p>
+</div>
+
+</div>
 
 </section>
 
 <!-- SKILLS -->
+<section id="skills" class="section">
 
-<section id="skills">
-
-<h2 class="section-title">Skills</h2>
+<h2>Skills</h2>
 
 <div class="skills-grid">
 
-<div class="skill-card">Python</div>
-<div class="skill-card">Java</div>
-<div class="skill-card">HTML</div>
-<div class="skill-card">CSS</div>
-<div class="skill-card">JavaScript</div>
-<div class="skill-card">MySQL</div>
-<div class="skill-card">DSA</div>
-<div class="skill-card">DBMS</div>
-<div class="skill-card">Git</div>
-<div class="skill-card">Machine Learning</div>
+<div class="skill"><i class="fab fa-java"></i> Java</div>
+<div class="skill"><i class="fab fa-python"></i> Python</div>
+<div class="skill"><i class="fab fa-js"></i> JavaScript</div>
+<div class="skill"><i class="fab fa-html5"></i> HTML</div>
+<div class="skill"><i class="fab fa-css3-alt"></i> CSS</div>
+<div class="skill"><i class="fas fa-database"></i> DBMS</div>
+<div class="skill"><i class="fas fa-brain"></i> Machine Learning</div>
+<div class="skill"><i class="fab fa-git-alt"></i> Git</div>
+<div class="skill"><i class="fab fa-github"></i> GitHub</div>
+<div class="skill"><i class="fas fa-code"></i> DSA</div>
 
 </div>
 
 </section>
 
 <!-- PROJECTS -->
+<section id="projects" class="section">
 
-<section id="projects">
-
-<h2 class="section-title">Projects</h2>
+<h2>Projects</h2>
 
 <div class="projects-grid">
 
 <div class="project-card">
-<h3>🚲 Bike Demand Prediction</h3>
-<p>Built an ML model to predict bike demand using weather and time features. Deployed using Streamlit.</p>
+<h3>Bike Demand Prediction</h3>
+<p>
+Built ML model to predict bike demand using weather and time features.
+Deployed using Streamlit.
+</p>
 </div>
 
 <div class="project-card">
-<h3>🎁 AI Gift Recommendation System</h3>
-<p>Developed a recommendation system using Random Forest. Built with Flask for web interface.</p>
+<h3>AI Gift Recommendation</h3>
+<p>
+Developed recommendation system using Random Forest.
+Built Flask web interface.
+</p>
 </div>
 
 <div class="project-card">
-<h3>🎓 Student Management System</h3>
-<p>Java-based application using OOP concepts. Supports CRUD operations.</p>
+<h3>Student Management System</h3>
+<p>
+Java based application implementing OOP concepts with CRUD operations.
+</p>
 </div>
 
 <div class="project-card">
-<h3>📊 Employee Attrition Prediction</h3>
-<p>Analyzed HR dataset and built ML models. Identified key factors influencing attrition.</p>
+<h3>Employee Attrition Prediction</h3>
+<p>
+Analyzed HR dataset and built ML models to predict attrition.
+</p>
 </div>
 
 <div class="project-card">
-<h3>✅ To-Do List App</h3>
-<p>Simple task management web application built using HTML, CSS and JavaScript.</p>
+<h3>To-Do List App</h3>
+<p>
+Interactive task management web app with add edit delete features.
+</p>
 </div>
 
 </div>
@@ -131,19 +175,31 @@ I am an Artificial Intelligence and Machine Learning student passionate about bu
 </section>
 
 <!-- CONTACT -->
+<section id="contact" class="section">
 
-<section id="contact">
-
-<h2 class="section-title">Contact</h2>
+<h2>Contact</h2>
 
 <p>Email: swapnireddy9494@gmail.com</p>
-<p>Phone: 8143431116</p>
+
+<div class="contact-social">
+
+<a href="https://github.com/swapnika9494" target="_blank">
+<i class="fab fa-github"></i>
+</a>
+
+<a href="https://www.linkedin.com/in/swapnika-satti-1690a2319/" target="_blank">
+<i class="fab fa-linkedin"></i>
+</a>
+
+</div>
 
 </section>
 
 <footer>
-<p>© 2026 Swapnika Satti</p>
+© 2026 Satti Swapnika
 </footer>
+
+<script src="script.js"></script>
 
 </body>
 </html>
